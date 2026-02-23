@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>spotify</title>
+        <link rel="stylesheet" href="spotify.css" />
+        <script
+            src="https://kit.fontawesome.com/f8dd27610c.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="navbar-logo">
+                    <i class="fa-brands fa-spotify"></i>
+                </div>
+                <div class="home-logo">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="What do you want to play" />
+                    <span>|</span>
+                    <i class="fa-solid fa-suitcase"></i>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="premium-support-download">
+                    <h4>Premium</h4>
+                    <h4>Support</h4>
+                    <h4>Download</h4>
+                </div>
+                <span>|</span>
+                <div class="install-sign-login">
+                    <h5><i class="fa-solid fa-download"></i> Install app</h5>
+                    <h5>Sign up</h5>
+                    <button class="btn-login">Log in</button>
+                </div>
+            </div>
+        </nav>
+        <div class="body-layout">
+            <aside class="asidebar">
+                <div class="library">
+                    <h3>Your library</h3>
+                    <button class="">
+                        <i class="fa-solid fa-plus"></i> Create
+                    </button>
+                </div>
+                <div class="asidebar-card">
+                    <h4>Create your first playlist</h4>
+                    <p>It's easy, we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+
+                <div class="asidebar-card">
+                    <h4>Let's find some podcasts to follow</h4>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button>Browse podcasts</button>
+                </div>
+
+                <footer class="asidebar-footer">
+                    <div class="first-footer">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety&Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    <div class="second-footer">
+                        <p>Cookies</p>
+                        <button>
+                            <i class="fa-solid fa-globe"></i> English
+                        </button>
+                    </div>
+                </footer>
+            </aside>
+            <main class="container">
+                <section class="section">
+                    <div class="section-header">
+                        <h2>Trending songs</h2>
+                        <span>Show all</span>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card">
+                            <img
+                                src="https://c.saavncdn.com/661/Dil-Lagana-Mana-Tha-Hindi-2026-20260114085211-500x500.jpg"
+                                alt="Dil-Lagana-Mana-Tha"
+                            />
+                            <h4>Dil Lagana Mana Tha</h4>
+                            <p>
+                                Krish Mondal, Kishore Mondal, Devv Sadaana,...
+                            </p>
+                        </div>
+
+                        <div class="card">
+                            <img
+                                src="https://c.saavncdn.com/384/Jee-Liya-From-Tu-Yaa-Main-Hindi-2026-20260129202104-500x500.jpg"
+                                alt="Jee-Liya"
+                            />
+                            <h4>Jee Liya-From "Tu Yaa Main</h4>
+                            <p>
+                                Adarsh Gourav, Aditya N., Lothika, Chakori
+                                Dwivedi
+                            </p>
+                        </div>
+
+                        <div class="card">
+                            <img
+                                src="https://c.saavncdn.com/035/Kithe-Reh-Gaya-Punjabi-2019-20190131075008-500x500.jpg"
+                                alt="Kithe-Reh-Gaya"
+                            />
+                            <h4>Kithe Reh Gaya</h4>
+                            <p>Neeti Mohan, Abhijit Vaghani</p>
+                        </div>
+
+                        <div class="card">
+                            <img
+                                src="https://images.genius.com/2922d686695e59a4a3961e553d346abb.300x300x1.jpg"
+                                alt="Khat"
+                            />
+                            <h4>Khat</h4>
+                            <p>Navjot Ahuja</p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="https://a10.gaanacdn.com/gn_img/albums/NOXWVgbkqL/XWVyoR6R3k/size_m.jpg"
+                                alt="Total"
+                            />
+                            <h4>Total</h4>
+                            <p>Rawme Hooda,Nishael,Riyazzi</p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="https://c.saavncdn.com/513/Sirai-Original-Motion-Picture-Soundtrack-Tamil-2026-20260105133230-500x500.jpg"
+                                alt="Neelothi"
+                            />
+                            <h4>Neelothi (From "Sirai")</h4>
+                            <p>
+                                Sooraj Santosh, Chinmayi,Justin Pravakharan,...
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-header">
+                        <h2>Popular artists</h2>
+                        <span>Show all</span>
+                    </div>
+
+                    <div class="artist-grid">
+                        <div class="artist-card">
+                            <img
+                                src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca"
+                                alt="Pritam"
+                            />
+                            <h4>Pritam</h4>
+                            <p>Artist</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                                alt="A.R. Rahman"
+                            />
+                            <h4>A.R. Rahman</h4>
+                            <p>Artist</p>
+                        </div>
+                        <div class="artist-card">
+                            <img
+                                src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7"
+                                alt="Arijit Singh"
+                            />
+                            <h4>Arijit Singh</h4>
+                            <p>Artist</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <img
+                                src="https://i.scdn.co/image/ab6761610000e5ebbb4064bef3a825344d5eb79e"
+                                alt="Sachin-Jigar"
+                            />
+                            <h4>Sachin-Jigar</h4>
+                            <p>Artist</p>
+                        </div>
+
+                        <div class="artist-card">
+                            <img
+                                src="https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf"
+                                alt="Vishal-Sekhar"
+                            />
+                            <h4>Vishal–Shekhar</h4>
+                            <p>Artist</p>
+                        </div>
+                        <div class="artist-card">
+                            <img
+                                src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84"
+                                alt="Atif Aslam"
+                            />
+                            <h4>Atif Aslam</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-header">
+                        <h2>Popular Albums and Singles</h2>
+                        <span>Show all</span>
+                    </div>
+
+                    <div class="card-grid">
+                        <div class="card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616d0000b273cdcd2404ffcc0f10b592e101"
+                                alt="Ashique2"
+                            />
+                            <h4>Ashique 2</h4>
+                            <p>Mithoon, Ankit Tiwari, Jeet Ganguli</p>
+                        </div>
+
+                        <div class="card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4"
+                                alt="Yeh Jawani hai Diwani"
+                            />
+                            <h4>Yeh Jawani Hai Diwani</h4>
+                            <p>Pritam</p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616d0000b273711c1639b4bc0f9978ae77a6"
+                                alt="Sanam Teri Kasam"
+                            />
+                            <h4>Sanam Teri Kasam</h4>
+                            <p>Himesh Reshmmiya, Sameer Anjaan,Subrat...</p>
+                        </div>
+
+                        <div class="card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616d0000b27383141000ee8ce3b893a0b425"
+                                alt="Finding Her"
+                            />
+                            <h4>Finding Her</h4>
+                            <p>Kushagra, Bharath, Saaheal</p>
+                        </div>
+
+                        <div class="card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616d0000b273a5183fa4b99bcec1f506418d"
+                                alt="Young Goat"
+                            />
+                            <h4>Young G.O.A.T</h4>
+                            <p>Cheema Y, Gur Sindhu</p>
+                        </div>
+                        <div class="card">
+                            <img
+                                src="https://i.scdn.co/image/ab67616d0000b273ac34d57d7fbf929de2b35aac"
+                                alt="Ranjhaan"
+                            />
+                            <h4>ranjhaan (From "Do Patti")</h4>
+                            <p>Sachet Parampara, Parampara Tandon, Kaush...</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-header">
+                        <h2>Popular Radio</h2>
+                        <span>Show all</span>
+                    </div>
+
+                    <div class="radio-featured-grid">
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                                alt="radio-arijit-Singh"
+                            />
+                            <p>
+                                With Sachin-Jigar, Jeet Ganguli, Pritam and...
+                            </p>
+                        </div>
+
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/pt"
+                                alt="radio-kk"
+                            />
+                            <p>
+                                With Pritam, Ankit Tiwari, Vishal-Sekhar and
+                                more
+                            </p>
+                        </div>
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/de"
+                                alt="radio-shreya-Ghosal"
+                            />
+                            <p>
+                                With A.R. Rehman, Arijit Singh, Atif Aslam and
+                                ...
+                            </p>
+                        </div>
+
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/de"
+                                alt="radio-Alka-Yagnik"
+                            />
+                            <p>With Vinod Rathod, Kumar Sanu, Udit...</p>
+                        </div>
+
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/de"
+                                alt="radio-Diljit-Dosanjh"
+                            />
+                            <p>With karan Ajhula, Shubh, Badshah and more</p>
+                        </div>
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/it"
+                                alt="radio-A.R.Rehman"
+                            />
+                            <p>With Unnikrishnan, Chinmayi, Arijit Singh...</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section-header">
+                        <h2>Featured Charts</h2>
+                        <span>Show all</span>
+                    </div>
+
+                    <div class="radio-featured-grid">
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                alt="top-global"
+                            />
+                            <p>
+                                Your weekly update of the most played tracks...
+                            </p>
+                        </div>
+
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                                alt="top-India"
+                            />
+                            <p>
+                                Your weekly update of the most played tracks...
+                            </p>
+                        </div>
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                                alt="Global top 50"
+                            />
+                            <p>
+                                Your weekly update of the most played tracks...
+                            </p>
+                        </div>
+
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg"
+                                alt="India top 50"
+                            />
+                            <p>
+                                Your daily update of the most played tracks...
+                            </p>
+                        </div>
+
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                                alt="viral global 50"
+                            />
+                            <p>
+                                Your weekly update of the most played tracks...
+                            </p>
+                        </div>
+                        <div class="radio-featured-card">
+                            <img
+                                src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_in_default.jpg"
+                                alt="viral india 50"
+                            />
+                            <p>
+                                Your weekly update of the most viral tracks...
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <hr />
+                <footer class="footer">
+                    <div class="footer-top">
+                        <div class="footer-links">
+                            <div class="footer-col">
+                                <h4>Company</h4>
+                                <a href="#">About</a>
+                                <a href="#">Jobs</a>
+                                <a href="#">For the Record</a>
+                            </div>
+
+                            <div class="footer-col">
+                                <h4>Communities</h4>
+                                <a href="#">For Artists</a>
+                                <a href="#">Developers</a>
+                                <a href="#">Advertising</a>
+                                <a href="#">Investors</a>
+                                <a href="#">Vendors</a>
+                            </div>
+
+                            <div class="footer-col">
+                                <h4>Useful links</h4>
+                                <a href="#">Support</a>
+                                <a href="#">Free Mobile App</a>
+                                <a href="#">Popular by Country</a>
+                                <a href="#">Import your music</a>
+                            </div>
+
+                            <div class="footer-col">
+                                <h4>Spotify Plans</h4>
+                                <a href="#">Premium Lite</a>
+                                <a href="#">Premium Standard</a>
+                                <a href="#">Premium Platinum</a>
+                                <a href="#">Premium Student</a>
+                                <a href="#">Spotify Free</a>
+                            </div>
+                        </div>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer-bottom">
+                        <p>© 2026 Spotify AB</p>
+                    </div>
+                </footer>
+            </main>
+        </div>
+        <footer class="body-layout-footer">
+            <section class="left-side">
+                <p class="preview">Preview of Spotify</p>
+                <p>Sign up to get unlimited songs and podcasts with ocasional ads. No credit card needed.</p>
+            </section>
+            <section class="right-side">
+                <button>Sign up free</button>
+            </section>
+        </footer>
+    </body>
+</html>
